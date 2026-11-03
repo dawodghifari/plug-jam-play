@@ -1,0 +1,320 @@
+{
+  "layout": {
+    "width": 390,
+    "refHeight": 844,
+    "minHeight": 660,
+    "maxHeight": 940,
+    "maxResolution": 2,
+    "zoneTopBar": 0.1,
+    "zoneBoard": 0.62,
+    "zoneStrip": 0.14,
+    "zoneBooster": 0.1,
+    "zoneSafe": 0.04,
+    "boardPadding": 10,
+    "minTouchTarget": 44
+  },
+  "cable": {
+    "thickness": 16,
+    "edgeWidth": 2,
+    "centreLine": 4,
+    "centreAlpha": 0.55,
+    "blockedBrightness": 0.6,
+    "shadowBlur": 7,
+    "shadowOffsetX": 1.5,
+    "shadowOffsetY": 3.5,
+    "shadowAlpha": 0.45,
+    "touchRadius": 24
+  },
+  "plug": {
+    "headSize": 38,
+    "stripSize": 40,
+    "textureSize": 46
+  },
+  "strip": {
+    "sidePadding": 10,
+    "socketSize": 46,
+    "ledSize": 7,
+    "ledGap": 8,
+    "bodyHeightRatio": 0.82
+  },
+  "pull": {
+    "retractMs": 250,
+    "retractEase": "Cubic.easeOut",
+    "arcMs": 200,
+    "arcHeight": 80
+  },
+  "seat": {
+    "punchScale": 1.15,
+    "punchMs": 120
+  },
+  "triple": {
+    "flashMs": 130,
+    "shrinkMs": 110,
+    "slideMs": 130,
+    "sparksMin": 12,
+    "sparksMax": 16,
+    "sparkSpeedMin": 80,
+    "sparkSpeedMax": 280,
+    "sparkLifeMs": 420,
+    "sparkSize": 8,
+    "shakePx": 4,
+    "shakeMs": 100,
+    "ledMs": 420,
+    "ledStaggerMs": 25
+  },
+  "blocked": {
+    "wiggles": 3,
+    "wiggleMs": 200,
+    "wigglePx": 4,
+    "pulseMs": 320,
+    "pulseWidth": 7,
+    "pulseAlpha": 0.95
+  },
+  "warning": {
+    "flickerMinMs": 50,
+    "flickerMaxMs": 130,
+    "alphaMin": 0.12,
+    "alphaMax": 0.6
+  },
+  "fuse": {
+    "dimAlpha": 0.6,
+    "dimMs": 350,
+    "smokeCount": 16,
+    "smokeSpeedMin": 15,
+    "smokeSpeedMax": 70,
+    "smokeLifeMs": 1100,
+    "smokeSize": 26,
+    "flickerCount": 5,
+    "flickerMs": 70,
+    "offerDelayMs": 850,
+    "restoreMs": 220
+  },
+  "win": {
+    "delayMs": 260,
+    "dimAlpha": 0.72,
+    "lamps": 6,
+    "lampStaggerMs": 110,
+    "lampFlashMs": 160,
+    "coins": 8,
+    "coinStaggerMs": 60,
+    "coinFlyMs": 430,
+    "coinSize": 22,
+    "buttonDelayMs": 650
+  },
+  "economy": {
+    "coinsPerWin": 10,
+    "hardCoinMultiplier": 2,
+    "undoFree": 3,
+    "undoUnlockLevel": 8
+  },
+  "tutorial": {
+    "pointerIdleMs": 1200,
+    "pointerBobPx": 10,
+    "pointerBobMs": 420,
+    "pointerSize": 44,
+    "giftToastMs": 2200
+  },
+  "audio": {
+    "masterVolume": 0.7,
+    "zipHz": 420,
+    "zipRefLength": 260,
+    "zipLengthExponent": 0.5,
+    "zipMinRatio": 0.6,
+    "zipMaxRatio": 1.7,
+    "zipMs": 190,
+    "zipVolume": 0.28,
+    "clickHz": 620,
+    "clickStepRatio": 1.26,
+    "clickMs": 55,
+    "clickVolume": 0.42,
+    "humHz": 110,
+    "humMs": 460,
+    "humVolume": 0.4,
+    "crackleCount": 7,
+    "crackleVolume": 0.22,
+    "thunkHz": 120,
+    "thunkMs": 95,
+    "thunkVolume": 0.6,
+    "buzzHz": 62,
+    "buzzVolume": 0.07,
+    "popVolume": 0.6,
+    "whineHz": 820,
+    "whineMs": 760,
+    "whineVolume": 0.26,
+    "chordRootHz": 392,
+    "chordStepMs": 95,
+    "chordNoteMs": 420,
+    "chordVolume": 0.24
+  },
+  "haptics": {
+    "light": [
+      10
+    ],
+    "medium": [
+      18
+    ],
+    "success": [
+      15,
+      40,
+      30,
+      40,
+      45
+    ],
+    "blockedTick": [
+      8,
+      35,
+      8
+    ],
+    "error": [
+      60,
+      40,
+      60,
+      40,
+      160
+    ]
+  },
+  "plugTypes": {
+    "red": {
+      "color": "#e5484d",
+      "icon": "bolt"
+    },
+    "blue": {
+      "color": "#3e8bff",
+      "icon": "circle"
+    },
+    "yellow": {
+      "color": "#f2b90f",
+      "icon": "triangle"
+    },
+    "green": {
+      "color": "#30a46c",
+      "icon": "square"
+    },
+    "purple": {
+      "color": "#9b5de5",
+      "icon": "star"
+    },
+    "orange": {
+      "color": "#f76b15",
+      "icon": "drop"
+    },
+    "teal": {
+      "color": "#12a594",
+      "icon": "leaf"
+    },
+    "pink": {
+      "color": "#e93d82",
+      "icon": "moon"
+    }
+  },
+  "readability": {
+    "minCrossingAngleDeg": 25,
+    "maxCablesAtPoint": 3,
+    "crossingRadius": 0.4,
+    "headClearance": 0.75,
+    "headSpacing": 1.05,
+    "headEdgeMargin": 0.55,
+    "cableEdgeMargin": 0.2,
+    "parallelClearance": 0.42,
+    "parallelIgnoreRadius": 1.2
+  },
+  "bot": {
+    "plays": 300,
+    "acceptWithin": 0.07,
+    "temperature": 1,
+    "finishWeight": 4,
+    "pairWeight": 1.5,
+    "openPenalty": 3,
+    "openPenaltyFromStrip": 5
+  },
+  "generator": {
+    "seedBase": 100000,
+    "attemptsPerLevel": 1500,
+    "dealsPerLayout": 6,
+    "candidatesPerCable": 80,
+    "slots": [
+      {
+        "tier": "easy",
+        "target": 0.9
+      },
+      {
+        "tier": "normal",
+        "target": 0.75
+      },
+      {
+        "tier": "normal",
+        "target": 0.75
+      },
+      {
+        "tier": "normal",
+        "target": 0.75
+      },
+      {
+        "tier": "hard",
+        "target": 0.5
+      },
+      {
+        "tier": "easy",
+        "target": 0.9
+      },
+      {
+        "tier": "normal",
+        "target": 0.75
+      },
+      {
+        "tier": "normal",
+        "target": 0.75
+      },
+      {
+        "tier": "hard",
+        "target": 0.5
+      },
+      {
+        "tier": "superHard",
+        "target": 0.35
+      }
+    ],
+    "tiers": {
+      "easy": {
+        "cables": 15,
+        "types": 4,
+        "depth": 2,
+        "maxOpen": 2,
+        "crossingsPerCable": 0.7,
+        "maxExtraPoints": 3,
+        "stepMin": 1.8,
+        "stepMax": 4.2
+      },
+      "normal": {
+        "cables": 18,
+        "types": 5,
+        "depth": 4,
+        "maxOpen": 3,
+        "crossingsPerCable": 1.2,
+        "maxExtraPoints": 2,
+        "stepMin": 1.6,
+        "stepMax": 3.6
+      },
+      "hard": {
+        "cables": 21,
+        "types": 6,
+        "depth": 5,
+        "maxOpen": 3,
+        "crossingsPerCable": 1.4,
+        "maxExtraPoints": 2,
+        "stepMin": 1.4,
+        "stepMax": 3.0
+      },
+      "superHard": {
+        "cables": 24,
+        "types": 8,
+        "depth": 6,
+        "maxOpen": 3,
+        "crossingsPerCable": 1.5,
+        "maxExtraPoints": 2,
+        "stepMin": 1.2,
+        "stepMax": 2.6
+      }
+    }
+  }
+}

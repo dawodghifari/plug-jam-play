@@ -1,0 +1,41 @@
+{
+  "id": 13,
+  "seed": 230000,
+  "board": {
+    "w": 9,
+    "h": 14
+  },
+  "stripCapacity": 7,
+  "types": [
+    "red",
+    "blue",
+    "yellow",
+    "green",
+    "purple"
+  ],
+  "rating": {
+    "tier": "normal",
+    "targetWinRate": 0.75,
+    "botWinRate": 0.78
+  },
+  "cables": [
+    {"id":"c1","type":"blue","z":4,"path":[[8.3,5.74],[6,5.96],[3.56,5.82]],"plugAt":"start"},
+    {"id":"c2","type":"yellow","z":1,"path":[[8.3,8.26],[6.7,8.88],[5.03,7.64],[4.84,5.35]],"plugAt":"start"},
+    {"id":"c3","type":"green","z":4,"path":[[8.3,7],[6.2,7.04],[4.55,6.64]],"plugAt":"start"},
+    {"id":"c4","type":"red","z":3,"path":[[0.7,7],[2.7,6.67],[4.16,8],[7.14,7.58]],"plugAt":"start"},
+    {"id":"c5","type":"green","z":2,"path":[[4.5,13.3],[3.54,11.14],[4.4,8.01]],"plugAt":"start"},
+    {"id":"c6","type":"purple","z":4,"path":[[8.3,12.04],[6.19,12.37],[3.6,12.29]],"plugAt":"start"},
+    {"id":"c7","type":"red","z":4,"path":[[1.97,0.7],[2.47,2.55],[2.15,5.7],[2.54,8.35]],"plugAt":"start"},
+    {"id":"c8","type":"yellow","z":3,"path":[[0.7,1.96],[2.49,1.84],[4.15,2.29]],"plugAt":"start"},
+    {"id":"c9","type":"yellow","z":3,"path":[[0.7,9.52],[2.23,9.52],[3.49,11.45],[6.66,11.8]],"plugAt":"start"},
+    {"id":"c10","type":"yellow","z":1,"path":[[5.77,13.3],[5.68,11.64],[8,9.38]],"plugAt":"start"},
+    {"id":"c11","type":"blue","z":1,"path":[[3.23,13.3],[2.49,11.67],[2.52,9.1]],"plugAt":"start"},
+    {"id":"c12","type":"yellow","z":2,"path":[[3.23,0.7],[3.35,2.32],[1.09,4.46],[1,6.28]],"plugAt":"start"},
+    {"id":"c13","type":"purple","z":3,"path":[[7.03,0.7],[6.27,2.35],[4.11,3.2],[2.14,5.95]],"plugAt":"start"},
+    {"id":"c14","type":"yellow","z":3,"path":[[7.03,13.3],[7.1,11.19],[5.72,9.42]],"plugAt":"start"},
+    {"id":"c15","type":"blue","z":1,"path":[[8.3,4.48],[6.17,4.72],[3.22,4.18]],"plugAt":"start"},
+    {"id":"c16","type":"red","z":4,"path":[[5.77,0.7],[6.25,2.83],[6.76,5.09]],"plugAt":"start"},
+    {"id":"c17","type":"purple","z":2,"path":[[0.7,8.26],[2.05,7.57],[3.1,6.01]],"plugAt":"start"},
+    {"id":"c18","type":"green","z":4,"path":[[1.97,13.3],[1.08,11.7],[1,11.62]],"plugAt":"start"}
+  ]
+}

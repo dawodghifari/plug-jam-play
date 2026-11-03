@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "seed": 0,
+  "board": {
+    "w": 9,
+    "h": 14
+  },
+  "stripCapacity": 7,
+  "types": [
+    "red"
+  ],
+  "rating": {
+    "tier": "easy",
+    "botWinRate": 1
+  },
+  "cables": [
+    {"id":"c1","type":"red","z":1,"path":[[1.2,3.4],[4.5,2.7],[7.8,3.4]],"plugAt":"start"},
+    {"id":"c2","type":"red","z":1,"path":[[7.8,7],[4.5,7.7],[1.2,7]],"plugAt":"start"},
+    {"id":"c3","type":"red","z":1,"path":[[1.2,10.6],[4.5,9.9],[7.8,10.6]],"plugAt":"start"}
+  ]
+}

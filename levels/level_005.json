@@ -1,0 +1,33 @@
+{
+  "id": 5,
+  "seed": 0,
+  "board": {
+    "w": 9,
+    "h": 14
+  },
+  "stripCapacity": 7,
+  "types": [
+    "red",
+    "blue",
+    "yellow",
+    "green"
+  ],
+  "rating": {
+    "tier": "normal",
+    "botWinRate": 0.9233333333333333
+  },
+  "cables": [
+    {"id":"c1","type":"red","z":2,"path":[[2.6,0.7],[2.9,2.6],[2.6,4.4]],"plugAt":"start"},
+    {"id":"c2","type":"blue","z":2,"path":[[6.4,0.7],[6.1,2.6],[6.4,4.4]],"plugAt":"start"},
+    {"id":"c3","type":"yellow","z":2,"path":[[1.8,5.2],[3,7],[3.9,9]],"plugAt":"start"},
+    {"id":"c4","type":"green","z":2,"path":[[7.2,5.2],[6,7],[5.1,9]],"plugAt":"start"},
+    {"id":"c5","type":"red","z":2,"path":[[3,13.3],[2.6,11.4],[3,9.6]],"plugAt":"start"},
+    {"id":"c6","type":"blue","z":2,"path":[[6,13.3],[6.4,11.4],[6,9.6]],"plugAt":"start"},
+    {"id":"c7","type":"yellow","z":1,"path":[[0.9,1.9],[4.5,1.6],[8.1,1.9]],"plugAt":"start"},
+    {"id":"c8","type":"green","z":1,"path":[[8.1,3.7],[4.5,3.4],[0.9,3.7]],"plugAt":"start"},
+    {"id":"c9","type":"red","z":1,"path":[[0.9,6.3],[4.5,6],[8.1,6.3]],"plugAt":"start"},
+    {"id":"c10","type":"blue","z":1,"path":[[8.1,8.1],[4.5,7.8],[0.9,8.1]],"plugAt":"start"},
+    {"id":"c11","type":"yellow","z":1,"path":[[0.9,10.6],[4.5,10.3],[8.1,10.6]],"plugAt":"start"},
+    {"id":"c12","type":"green","z":1,"path":[[8.1,12.4],[4.5,12.1],[0.9,12.4]],"plugAt":"start"}
+  ]
+}
