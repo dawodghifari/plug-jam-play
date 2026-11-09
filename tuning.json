@@ -140,6 +140,14 @@
     "undoFree": 3,
     "undoUnlockLevel": 8
   },
+  "home": {
+    "titleSize": 58,
+    "plugSize": 56,
+    "plugGap": 82,
+    "bobPx": 8,
+    "bobMs": 700,
+    "bobStaggerMs": 160
+  },
   "tutorial": {
     "pointerIdleMs": 1200,
     "pointerBobPx": 10,
