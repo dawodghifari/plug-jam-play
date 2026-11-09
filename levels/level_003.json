@@ -12,7 +12,8 @@
   ],
   "rating": {
     "tier": "easy",
-    "botWinRate": 1
+    "botWinRate": 1,
+    "plannerWinRate": 1
   },
   "cables": [
     {"id":"c1","type":"red","z":1,"path":[[1,1],[4.5,1.4],[8,1]],"plugAt":"start"},

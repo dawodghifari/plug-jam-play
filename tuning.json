@@ -52,6 +52,7 @@
   },
   "assist": {
     "pairGlow": true,
+    "pairGlowOnHard": false,
     "glowSize": 12,
     "glowPulseMs": 900,
     "glowAlphaMin": 0.35,
@@ -266,7 +267,9 @@
     "finishWeight": 4,
     "pairWeight": 1.5,
     "openPenalty": 3,
-    "openPenaltyFromStrip": 5
+    "openPenaltyFromStrip": 5,
+    "lookAhead": 3,
+    "plannerPlays": 200
   },
   "generator": {
     "seedBase": 100000,
@@ -274,13 +277,15 @@
     "dealsPerLayout": 6,
     "candidatesPerCable": 80,
     "onboardingAcceptWithin": 0.03,
+    "plannerTiers": ["hard", "superHard"],
+    "plannerAcceptWithin": 0.1,
     "onboarding": [
       { "id": 5, "tier": "normal", "target": 0.9, "cables": 12, "types": 4, "depth": 2, "maxOpen": 2, "crossingsPerCable": 0.85, "maxExtraPoints": 2, "stepMin": 1.8, "stepMax": 4.0 },
       { "id": 6, "tier": "easy", "target": 0.97, "cables": 12, "types": 4, "depth": 2, "maxOpen": 2, "crossingsPerCable": 0.45, "maxExtraPoints": 2, "stepMin": 1.8, "stepMax": 4.0 },
       { "id": 7, "tier": "normal", "target": 0.92, "cables": 15, "types": 4, "depth": 3, "maxOpen": 2, "crossingsPerCable": 0.9, "maxExtraPoints": 2, "stepMin": 1.8, "stepMax": 4.0 },
       { "id": 8, "tier": "normal", "target": 0.85, "cables": 15, "types": 4, "depth": 4, "maxOpen": 2, "crossingsPerCable": 1.0, "maxExtraPoints": 2, "stepMin": 1.8, "stepMax": 3.8 },
       { "id": 9, "tier": "normal", "target": 0.8, "cables": 18, "types": 5, "depth": 4, "maxOpen": 3, "crossingsPerCable": 1.1, "maxExtraPoints": 2, "stepMin": 1.6, "stepMax": 3.6 },
-      { "id": 10, "tier": "hard", "target": 0.5, "cables": 18, "types": 5, "depth": 5, "maxOpen": 3, "crossingsPerCable": 1.3, "maxExtraPoints": 2, "stepMin": 1.6, "stepMax": 3.6 }
+      { "id": 10, "tier": "hard", "target": 0.5, "cables": 18, "types": 5, "depth": 6, "maxOpen": 6, "crossingsPerCable": 1.7, "maxExtraPoints": 2, "stepMin": 1.6, "stepMax": 3.6 }
     ],
     "slots": [
       {
@@ -347,10 +352,10 @@
       },
       "hard": {
         "cables": 21,
-        "types": 6,
-        "depth": 5,
-        "maxOpen": 3,
-        "crossingsPerCable": 1.4,
+        "types": 7,
+        "depth": 6,
+        "maxOpen": 6,
+        "crossingsPerCable": 1.6,
         "maxExtraPoints": 2,
         "stepMin": 1.4,
         "stepMax": 3.0
@@ -358,9 +363,9 @@
       "superHard": {
         "cables": 24,
         "types": 8,
-        "depth": 6,
-        "maxOpen": 3,
-        "crossingsPerCable": 1.5,
+        "depth": 7,
+        "maxOpen": 7,
+        "crossingsPerCable": 1.7,
         "maxExtraPoints": 2,
         "stepMin": 1.2,
         "stepMax": 2.6
