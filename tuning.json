@@ -268,12 +268,12 @@
     "pairWeight": 1.5,
     "openPenalty": 3,
     "openPenaltyFromStrip": 5,
-    "lookAhead": 3,
+    "lookAhead": 5,
     "plannerPlays": 200
   },
   "generator": {
     "seedBase": 100000,
-    "attemptsPerLevel": 1500,
+    "attemptsPerLevel": 4000,
     "dealsPerLayout": 6,
     "candidatesPerCable": 80,
     "onboardingAcceptWithin": 0.03,
@@ -306,7 +306,7 @@
       },
       {
         "tier": "hard",
-        "target": 0.5
+        "target": 0.35
       },
       {
         "tier": "easy",
@@ -322,11 +322,11 @@
       },
       {
         "tier": "hard",
-        "target": 0.5
+        "target": 0.35
       },
       {
         "tier": "superHard",
-        "target": 0.35
+        "target": 0.2
       }
     ],
     "tiers": {
