@@ -14,11 +14,16 @@
     "minTouchTarget": 44
   },
   "cable": {
-    "thickness": 16,
-    "edgeWidth": 2,
-    "centreLine": 4,
-    "centreAlpha": 0.55,
-    "blockedBrightness": 0.6,
+    "thickness": 17,
+    "edgeWidth": 2.5,
+    "edgeDarken": 0.5,
+    "highlightWidth": 3.5,
+    "highlightAlpha": 0.6,
+    "highlightLighten": 0.5,
+    "highlightOffset": 2,
+    "blockedBrightness": 0.9,
+    "anchorRadius": 11,
+    "anchorFadeMs": 140,
     "shadowBlur": 7,
     "shadowOffsetX": 1.5,
     "shadowOffsetY": 3.5,
@@ -26,22 +31,47 @@
     "touchRadius": 24
   },
   "plug": {
-    "headSize": 38,
+    "headSize": 40,
     "stripSize": 40,
-    "textureSize": 46
+    "textureSize": 46,
+    "ringWidth": 3,
+    "ringFadeMs": 140
   },
   "strip": {
     "sidePadding": 10,
     "socketSize": 46,
     "ledSize": 7,
     "ledGap": 8,
-    "bodyHeightRatio": 0.82
+    "bodyHeightRatio": 0.82,
+    "leanDeg": 7,
+    "leanMs": 140,
+    "pipSize": 8,
+    "pipSpacing": 12,
+    "pipGap": 8,
+    "pipPopMs": 180
+  },
+  "assist": {
+    "pairGlow": true,
+    "glowSize": 12,
+    "glowPulseMs": 900,
+    "glowAlphaMin": 0.35,
+    "glowAlphaMax": 1
   },
   "pull": {
-    "retractMs": 250,
-    "retractEase": "Cubic.easeOut",
-    "arcMs": 200,
-    "arcHeight": 80
+    "flightMs": 380,
+    "flightEase": "Quad.easeOut",
+    "arcHeight": 80,
+    "reelBy": 0.85,
+    "yankScale": 1.25,
+    "yankShare": 0.35,
+    "returnMs": 200,
+    "growMs": 250,
+    "growEase": "Cubic.easeOut"
+  },
+  "unlock": {
+    "delayMs": 120,
+    "popScale": 1.25,
+    "popMs": 240
   },
   "seat": {
     "punchScale": 1.15,
@@ -66,6 +96,9 @@
     "wiggles": 3,
     "wiggleMs": 200,
     "wigglePx": 4,
+    "wiggleDeg": 12,
+    "flashMs": 420,
+    "flashSize": 34,
     "pulseMs": 320,
     "pulseWidth": 7,
     "pulseAlpha": 0.95
@@ -232,6 +265,15 @@
     "attemptsPerLevel": 1500,
     "dealsPerLayout": 6,
     "candidatesPerCable": 80,
+    "onboardingAcceptWithin": 0.03,
+    "onboarding": [
+      { "id": 5, "tier": "normal", "target": 0.9, "cables": 12, "types": 4, "depth": 2, "maxOpen": 2, "crossingsPerCable": 0.85, "maxExtraPoints": 2, "stepMin": 1.8, "stepMax": 4.0 },
+      { "id": 6, "tier": "easy", "target": 0.97, "cables": 12, "types": 4, "depth": 2, "maxOpen": 2, "crossingsPerCable": 0.45, "maxExtraPoints": 2, "stepMin": 1.8, "stepMax": 4.0 },
+      { "id": 7, "tier": "normal", "target": 0.92, "cables": 15, "types": 4, "depth": 3, "maxOpen": 2, "crossingsPerCable": 0.9, "maxExtraPoints": 2, "stepMin": 1.8, "stepMax": 4.0 },
+      { "id": 8, "tier": "normal", "target": 0.85, "cables": 15, "types": 4, "depth": 4, "maxOpen": 2, "crossingsPerCable": 1.0, "maxExtraPoints": 2, "stepMin": 1.8, "stepMax": 3.8 },
+      { "id": 9, "tier": "normal", "target": 0.8, "cables": 18, "types": 5, "depth": 4, "maxOpen": 3, "crossingsPerCable": 1.1, "maxExtraPoints": 2, "stepMin": 1.6, "stepMax": 3.6 },
+      { "id": 10, "tier": "hard", "target": 0.5, "cables": 18, "types": 5, "depth": 5, "maxOpen": 3, "crossingsPerCable": 1.3, "maxExtraPoints": 2, "stepMin": 1.6, "stepMax": 3.6 }
+    ],
     "slots": [
       {
         "tier": "easy",
